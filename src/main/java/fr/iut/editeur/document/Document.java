@@ -40,6 +40,10 @@ public class Document {
         remplacer(0, texte.length(), "");
     }
 
+    public void inserer(int index, String texte){
+        remplacer(index + 1, index + 1, texte);
+    }
+
     @Override
     public String toString() {
         return this.texte;
