@@ -18,4 +18,9 @@ public class CommandeMinuscules extends CommandeDocument{
         this.document.minuscules(indexDebut, indexFin);
         super.executer();
     }
+
+    @Override
+    public String getDescriptionCommande() {
+        return "Permet de transformer toutes les lettres entre deux index en miniscules avec le format : minuscules;indexDebut;indexFin";
+    }
 }
