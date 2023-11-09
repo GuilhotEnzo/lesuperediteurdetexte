@@ -32,7 +32,7 @@ public class Document {
     }
 
     public void effacer(int start, int end) {
-        String texte2 = "AH";
+        String texte2 = "";
         remplacer(start, end, texte2);
     }
 
