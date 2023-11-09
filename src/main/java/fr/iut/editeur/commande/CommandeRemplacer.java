@@ -22,4 +22,9 @@ public class CommandeRemplacer extends CommandeDocument {
         super.executer();
     }
 
+    @Override
+    public String getDescriptionCommande() {
+        return "Permet de remplacer un texte entre deux index par celui donné avec le format : remplacer;indexDuDebut;indexDeFin;texte;";
+    }
+
 }

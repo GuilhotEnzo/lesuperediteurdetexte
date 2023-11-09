@@ -20,4 +20,8 @@ public class CommandeAjouter extends CommandeDocument {
         super.executer();
     }
 
+    public String getDescriptionCommande(){
+        return "Permet d'ajouter du texte avec le format : ajouter;texte;";
+    }
+
 }

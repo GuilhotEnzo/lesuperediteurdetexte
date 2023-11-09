@@ -18,4 +18,9 @@ public class CommandeInserer extends CommandeDocument{
         this.document.inserer(index, text);
         super.executer();
     }
+
+    @Override
+    public String getDescriptionCommande() {
+        return "Permet d'insérer du texte à partir d'un indexe donné avec le format : inserer;indexDuDebut;texte;";
+    }
 }

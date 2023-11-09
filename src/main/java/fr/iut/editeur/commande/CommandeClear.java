@@ -19,4 +19,9 @@ public class CommandeClear extends CommandeDocument {
         super.executer();
     }
 
+    @Override
+    public String getDescriptionCommande() {
+        return "Permet d'effacer tout le texte avec le format : clear;";
+    }
+
 }
