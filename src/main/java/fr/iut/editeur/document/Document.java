@@ -37,7 +37,7 @@ public class Document {
     }
 
     public void clear() {
-        remplacer(0, texte.length(), "");
+        remplacer(0, texte.length(), "Bonjour je suis Olivier");
     }
 
     @Override
