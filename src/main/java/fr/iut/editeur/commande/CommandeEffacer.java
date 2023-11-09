@@ -21,4 +21,9 @@ public class CommandeEffacer extends CommandeDocument {
         super.executer();
     }
 
+    @Override
+    public String getDescriptionCommande() {
+        return "Permet d'effacer le texte compris entre deux index avec le format : effacer;indexDuDebut;indexDeFin;";
+    }
+
 }

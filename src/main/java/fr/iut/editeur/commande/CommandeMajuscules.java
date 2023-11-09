@@ -21,4 +21,9 @@ public class CommandeMajuscules extends CommandeDocument {
         super.executer();
     }
 
+    @Override
+    public String getDescriptionCommande() {
+        return "Permet de transformer en majuscules toutes les lettres comprises entre deux index avec le format : majuscules;indexDuDebut;indexDeFin;";
+    }
+
 }
